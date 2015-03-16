@@ -1,5 +1,5 @@
  <!DOCTYPE html>
-<html>
+<<html class="no-js">>
 <head>
   <title>Page Test</title>
 <style type="text/css"><!--
@@ -9,15 +9,24 @@
 </head>
 
 <body>
-<canvas id="imageView" width="600" height="500"></canvas>
-  <h1>This is a Heading</h1>
 
-  <p>This is a paragraph.</p>
-<script type="text/javascript">
- Math.floor(Math.random() * 9) + 0
-</script>
+  <h1>This is Whosit</h1>
+
+  <p>Login test</p>	
+	<div class="main-content">
+		<div id="banner" class="banner">
+			<div class="container"> /* request permissions*/
+				<fb:login-button scope="public_profile,read_friendlists" onlogin="checkLoginState();" class="btn btn-download btn-lg ti-facebook"> Login using Facebook
+				</fb:login-button>
+			</div>
+			<div class="slash-container">
+				<svg preserveAspectRatio="none" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="slash">
+				<path d="M0 0 L100 100 L0 100" stroke-width="0">       </path>
+				</svg>
+			</div>
+		</div>
+	</div>
 </body>
 
 </html> 
 
-<!DOCTYPE html>
